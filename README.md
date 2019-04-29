@@ -4,8 +4,9 @@ Demoscene starter kit for rust
 ## How to build
 1. Clone and follow the build instructions of https://github.com/neosmart/msvcrt.lib
 2. Create a folder with the following contents: `support\msvcrt.lib`
-3. Run cargo +nightly run --release
-4. Observe a nice error:
+3. Run `rustup install nightly`
+4. Run `cargo +nightly run --release`
+5. Observe a nice error:
 ```
 error: process didn't exit successfully: `target\debug\demoscene_starter_kit.exe` (exit code: 10)
 ```
