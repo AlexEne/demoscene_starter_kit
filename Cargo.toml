@@ -1,0 +1,15 @@
+[package]
+name = "demoscene_starter_kit"
+version = "0.1.0"
+authors = ["Alexandru <alex.ene0x11@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+winapi = { version = "0.3", features = ["heapapi", "processthreadsapi"] }
+
+[profile.dev]
+panic = "abort"
+codegen-units = 1
+
+[profile.release]
+panic = "abort"
