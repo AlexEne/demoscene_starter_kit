@@ -10,6 +10,10 @@ Demoscene starter kit for rust
 error: process didn't exit successfully: `target\debug\demoscene_starter_kit.exe` (exit code: 10)
 ```
 
+Inspecting the assembly generated we can see:
+![alt text](https://alexene.github.io/images/demoscene_starter_kit/assembly.png)
+
+
 ## Credits
 Most of the work here is not mine and it was possible with the amazing help from [cpdt](https://gist.github.com/cpdt). 
 99.9% of the work here is copy-pasted from him :)
